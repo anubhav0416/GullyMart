@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #0033cc;
+    /* display: flex;
+    justify-content: center; */
+    min-height: 300vh;
+
+}
+
+header {
+    height: 100px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(249, 249, 249);
+    display: flex
+}
+
+.container {
+    box-shadow: -1px 2px 25px #012549;
+    border-radius: 20px;
+    margin-top: 2%;
+    padding: 30px;
+    background-color: #fff;
+    height: 285vh;
+    width: 1320px;
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+    top: 30px;
+
+
+}
+
+.logo {
+    height: 300px;
+    position: relative;
+    bottom: 86px;
+}
+
+.navbar {
+
+    margin-left: 280px;
+}
+
+.navbar li {
+    display: flex;
+    margin: 20px;
+    position: relative;
+    right: 80px;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #012549;
+
+}
+
+.navbar li a:hover {
+    color: #ff8800;
+
+}
+
+.head {
+    margin: 20px;
+}
+
+.btnlogin-popup {
+    position: relative;
+    left: 500px;
+    bottom: 73px;
+    padding: 13px 33px;
+    font-size: 18px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: #ff8800;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btnlogin-popup a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-heading {
+    position: relative;
+    top: 10vh
+}
+
+.main-heading {
+    font-size: 7rem;
+    text-align: center;
+    color: #012549
+}
+
+.sub-heading {
+    position: relative;
+    top: 100px;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.searchbar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 200px;
+    z-index: 1;
+}
+
+.search {
+    text-align: center;
+    color: #012549;
+    height: 75px;
+    width: 959px;
+    font-size: 36px;
+    position: relative;
+    border: 4px solid #012549;
+    border-radius: 20px;
+}
+
+.searchbar a {
+    color: #ff8800;
+    font-size: 34px;
+    right: 59px;
+    
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+}
+
+.map {
+    border-top-left-radius: 52px;
+    border-top-right-radius: 53px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px;
+    box-shadow: -1px 2px 25px #012549;
+    top: 154px;
+    left: 6%;
+    width: 85%;
+    position: relative;
+    background-image: url(Google-Maps-Traffic-Source-1.jpg);
+    background-size: cover;
+    height: 520px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.map:hover {
+    transform: translateY(-10px);
+}
+
+.quick-btn {
+    display: flex;
+    position: relative;
+    top: 200px;
+    justify-content: space-evenly;
+}
+
+.searchbtn {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.searchbtn:hover {
+    transform: translateY(-10px);
+    text-shadow: 2px 2px 3px #ffcc99;
+}
+
+.shopbtn {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.shopbtn i {
+    color: #ff8800;
+}
+
+.directionbtn {
+    display: flex;
+}
+
+.directionbtn i {
+    color: #ff8800;
+}
+
+.quick-btn i {
+    position: relative;
+    font-size: 4rem;
+
+}
+
+.quick-btn p {
+    font-size: 2rem;
+
+}
+
+.quick-btn a {
+    text-decoration: none;
+    color: #012549;
+}
+
+.imp-heading {
+    position: relative;
+    top: 300px;
+    left: 150px;
+
+}
+
+.imp-heading h1 {
+    font-size: 4rem;
+}
+
+/* .range{
+    display: flex;
+}
+
+.availability{
+    display: flex;
+}
+
+.store{
+    display: flex;
+}
+
+.handshake{
+    display: flex;
+} */
+
+.ic a {
+    text-decoration: none;
+    margin-top: 40px;
+    display: flex;
+    font-size: 2rem;
+}
+
+.ic a i {
+    color: #ff8800;
+    font-size: 3rem;
+}
+
+.ic a p {
+    color: #012549;
+    margin-left: 20px;
+}
+
+.search2{
+    text-align: center;
+    width: 415px;
+    height: 49px;
+    border: 2px solid #012549;
+    border-radius: 10px;
+}
+.searchbar2{
+        position: relative;
+    top: 161px;
+    left: 63px;
+
+}
+
+
+
+.searchbar2  i{
+    position: relative;
+    right: 40px;
+    top: 2px;
+    color: #ff8800;
+    font-size: 1.5rem;
+}
+.pg2{
+    width: 490px;
+    font-size: 3rem;
+    top: 126px;
+    text-align: center;
+    position: relative;
+    right: 807px;
+} 
+                                       /* login  */
+ body.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+}
+
+/* Wrapper */
+.wrapper2 {
+  width: 380px;
+ position: relative;
+    bottom: 730px;
+    width: 380px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Login Box */
+.from-box-login h3 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* Input Boxes */
+.input-box {
+  position: relative;
+  margin: 20px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.input-box label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -8px;
+  font-size: 12px;
+  color: #4ca1af;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Remember + Forgot */
+.remember-forgate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ddd;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.remember-forgate a {
+  color: #4ca1af;
+  text-decoration: none;
+}
+.remember-forgate a:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #4ca1af;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #357f8e;
+}
+
+/* Register Section */
+.resister {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.resister a {
+  color: #4ca1af;
+  font-weight: bold;
+  text-decoration: none;
+}
+.resister a:hover {
+  text-decoration: underline;
+}

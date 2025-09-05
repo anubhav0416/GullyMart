@@ -1,0 +1,77 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+
+    </head>
+
+    <body class="Home">
+
+
+                </ul>
+            </div>
+        </nav>
+        <div class="wrapper2">
+           
+            <div class="from-box-login">
+                <h3>resister</h3>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Full Name</label>
+                    </div>
+                     <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="number" required>
+                        <label>phone no</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></i></span>
+                        <input type="password" required>
+                        <label>password</label>
+
+                    </div>
+                    <div class="remember-forgate">
+                        <label><input type="checkbox">remember me</label>
+                        <a href="#">forgate password</a>
+
+                    </div>
+                    <button type="submit" class="btn">resister</button>
+                    <div class="resister">
+                    <p style="color: white;">Alredy have account?</p> <a href="login.html">login now</a>
+
+
+                </div>
+               
+                </form>
+               
+            </div>
+        </div>
+        </div>
+       
+       <script>
+   const res = await fetch("http://localhost/studyy/backend/register.php", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ email, password }),
+});
+
+  </script>
+
+    </body>
+
+
+
+    </html>
